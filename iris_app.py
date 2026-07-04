@@ -45,6 +45,11 @@ def iris():
             'PetalWidthCm': [PetalWidthCm]
         })
 
+        st.image(
+            "https://www.dutchgrown.com/cdn/shop/products/Dutch_Iris_Autumn_Princess-1.jpg?v=1677772444",
+            width=400
+        )
+        
         st.markdown(
             """
         *Iris Flower*  
