@@ -46,9 +46,9 @@ def iris():
         })
 
     st.image(
-        "https://www.pinterest.com/pin/blue-iris-flowers-blooming-at-sunset--19984792092387852/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlvPUT9gVmqVNsjvSsVlMmmb9PUPppxOZsnZIRNPuSO882SE8A80i8J_Y&s=10",
         width=400,
-        caption="Iris Flower"
+        caption="An Iris Flower"
     )
 
     if st.sidebar.button("Predict"):
