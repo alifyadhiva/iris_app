@@ -45,11 +45,13 @@ def iris():
             'PetalWidthCm': [PetalWidthCm]
         })
 
-    st.image(
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlvPUT9gVmqVNsjvSsVlMmmb9PUPppxOZsnZIRNPuSO882SE8A80i8J_Y&s=10",
-        width=400,
-        caption="An Iris Flower"
-    )
+        st.markdown(
+            """
+        *Iris Flower*  
+        <small>Source: Dutch Grown</small>
+        """,
+            unsafe_allow_html=True
+        )
 
     if st.sidebar.button("Predict"):
 
